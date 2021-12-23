@@ -1,0 +1,163 @@
+{
+  "id": "3047054",
+  "name": "软件框架",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "587148",
+      "name": "undo",
+      "font_class": "undo",
+      "unicode": "e822",
+      "unicode_decimal": 59426
+    },
+    {
+      "icon_id": "9402954",
+      "name": "折箭头",
+      "font_class": "changyongicon-",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "22383628",
+      "name": "圆角矩形",
+      "font_class": "yuanjiaojuxing",
+      "unicode": "edf8",
+      "unicode_decimal": 60920
+    },
+    {
+      "icon_id": "23977950",
+      "name": "线性手掌图标",
+      "font_class": "xianxingshouzhangtubiao",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "338314",
+      "name": "下载",
+      "font_class": "xiazai",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "6584496",
+      "name": "关闭",
+      "font_class": "guanbi1",
+      "unicode": "e69d",
+      "unicode_decimal": 59037
+    },
+    {
+      "icon_id": "5924486",
+      "name": "文件",
+      "font_class": "wenjian3",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "19643521",
+      "name": "文件",
+      "font_class": "wenjian5",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "21721553",
+      "name": "文件类型-标准图-未知文件",
+      "font_class": "wenjianleixing-biaozhuntu-weizhiwenjian",
+      "unicode": "e6a6",
+      "unicode_decimal": 59046
+    },
+    {
+      "icon_id": "4512075",
+      "name": "打开文件",
+      "font_class": "dakaiwenjian",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "1128",
+      "name": "删除文件夹",
+      "font_class": "shanchuwenjianjia",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "68264",
+      "name": "搜索，猫客",
+      "font_class": "sousuo",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "392156",
+      "name": "箭头",
+      "font_class": "45",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    },
+    {
+      "icon_id": "587063",
+      "name": "redo",
+      "font_class": "redo",
+      "unicode": "e7cf",
+      "unicode_decimal": 59343
+    },
+    {
+      "icon_id": "1617899",
+      "name": "粘贴",
+      "font_class": "niantie",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "10385040",
+      "name": "剪切",
+      "font_class": "jianqie",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "11833526",
+      "name": "删除",
+      "font_class": "shanchu1",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "20282285",
+      "name": "复制",
+      "font_class": "fuzhi",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    },
+    {
+      "icon_id": "25015249",
+      "name": "选择箭头",
+      "font_class": "choose",
+      "unicode": "e6a1",
+      "unicode_decimal": 59041
+    },
+    {
+      "icon_id": "688135",
+      "name": "新建页面 添加",
+      "font_class": "xinjianyemiantianjia",
+      "unicode": "e7ab",
+      "unicode_decimal": 59307
+    },
+    {
+      "icon_id": "1471595",
+      "name": "save",
+      "font_class": "save",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "11121451",
+      "name": "新建文件",
+      "font_class": "xinjianwenjian",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    }
+  ]
+}

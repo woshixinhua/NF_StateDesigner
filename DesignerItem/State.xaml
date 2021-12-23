@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="DesignerItem.State"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DesignerItem"
+             mc:Ignorable="d"
+             d:DesignWidth="480" d:DesignHeight="480" Canvas.Left="0" Canvas.Top="0"
+             MouseDown="UserControl_MouseDown">
+
+
+    <UserControl.Template>
+        <ControlTemplate TargetType="ContentControl">
+            <Grid Background="LightYellow" Opacity="1">
+                <Border Background="Transparent" CornerRadius="{Binding ElementName=ItemBase, Path=CanvasStyle.Grid}"  BorderBrush="Red" BorderThickness="{Binding ElementName=ItemBase, Path=CanvasStyle.HalfGrid}">
+                    <Border x:Name="Border" Background="#7FFFFFE0" CornerRadius="{Binding ElementName=ItemBase, Path=CanvasStyle.Grid}"  BorderBrush="Black" BorderThickness="3" >
+                        <!--<Border Background="Transparent" CornerRadius="{Binding ElementName=ItemBase, Path=CanvasStyle.Grid}"  BorderBrush="Orange" BorderThickness="{Binding ElementName=ItemBase, Path=CanvasStyle.HalfGrid}">-->
+                            <Grid>
+                                <StackPanel>
+                                    <Label DockPanel.Dock="Top" Height="40" FontSize="21" Content="State" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                                    <Rectangle Height="3" Fill="Black"></Rectangle>
+                                    <Grid >
+
+                                    </Grid>
+                                </StackPanel>
+                                <local:DragThumb Opacity="0" DataContext="{Binding RelativeSource={RelativeSource TemplatedParent}}">
+                                </local:DragThumb>
+                            </Grid>
+                        <!--</Border>-->
+                        
+                    </Border>
+                </Border>
+            </Grid>
+        </ControlTemplate>
+    </UserControl.Template>
+
+    <local:DesignerItemBase x:Name="ItemBase">
+    </local:DesignerItemBase>
+</UserControl>
